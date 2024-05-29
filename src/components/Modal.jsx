@@ -56,7 +56,8 @@ const Product = ({ id }) => {
             src={product.image}
             alt={product.title}
             fill
-            objectFit="contain"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority={true}
           />
         </motion.div>
         <motion.div
