@@ -28,7 +28,6 @@ const Card = ({ product }) => {
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority={true}
-            className="hover:scale-105 transition-all"
           />
         </div>
         <div className="flex flex-col gap-2">
